@@ -1,0 +1,30 @@
+{
+
+  "_comment": "Config; don't change these values unless you have modified the Wolf RPG Editor in some way.",
+  "_version": "1.0",
+  "breakCharacter": "\n",
+  "maxCharactersHex": "65",
+  "maxCharactersInt": 100,
+  "textSet": "$",
+  "_comment": "Change this directory if you are not running the program from the Wolf RPG Editor Data file.",
+  "fileDirectory": "MapData/",
+
+
+  "_comment": "Text; place all text below here.",
+  "text": {
+
+      "newmap_test": {
+        "$$newmap_0001$$": "This text will be replacing the key 1.",
+        "$$newmap_0002$$": "This text will be replacing the key 2."
+
+
+      }
+
+
+
+
+
+    }
+
+
+}
