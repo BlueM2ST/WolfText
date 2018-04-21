@@ -77,7 +77,7 @@ def extractTextFromExistingGame(OUTPUT_DIR, config, fileDirectory):
         dictionary['text'][fileName] = dictionaryOrdered
         print('File \'{}.mps\' completed successfully.'.format(fileName))
 
-    dump(dictionary, outputjson, indent=4)
+    dump(dictionary, outputjson, indent=4, ensure_ascii=False)
     outputjson.close()
 
     forceCorrectFormat(OUTPUT_DIR, textSet)
