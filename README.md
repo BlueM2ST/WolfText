@@ -87,5 +87,8 @@
  For version 1.2:
  - Extract choice text and comments.
  - Add a few more situations where linebreaks might not be accurate.
- - Test it on the non-ASCII version of the engine.
+ - Test it on different locales and non-English games.
  - Add support for maps that are not only in the tools format.
+ - Extract and reinsert text from the database and common event files.
+ - Fix some potential encoding issues.
+ - Extract system variables.
