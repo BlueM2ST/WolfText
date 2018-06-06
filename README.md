@@ -3,6 +3,8 @@
  WolfText Tool by BlueMist
 
  Localization and ease of writing tool for the Wolf RPG Editor.
+ 
+ **Due to not properly decoding shift-jis (or any non-UTF8 or ASCII encoding) the program will currently only work if the game text was input in UTF8 or ASCII (like on Windows under an English locale).**
 
  **This tool is still in development, so there may be bugs (it was only tested on the Sample 
  Game). This tool does not modify the original
@@ -87,8 +89,7 @@
  For version 1.2:
  - Extract choice text and comments.
  - Add a few more situations where linebreaks might not be accurate.
- - Test it on different locales and non-English games.
  - Add support for maps that are not only in the tools format.
  - Extract and reinsert text from the database and common event files.
- - Fix some potential encoding issues.
+ - Fix encoding issues, most notably with shift-jis.
  - Extract system variables.
